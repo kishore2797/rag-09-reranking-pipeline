@@ -63,6 +63,18 @@ npm run dev
 
 Open http://localhost:5176 — ingest documents, query with rerank toggle, see before/after order.
 
+## 📦 Example
+
+A minimal runnable example is in the `example/` folder:
+
+```bash
+cd example
+pip install -r requirements.txt
+python example.py
+```
+
+It retrieves top-N with vector search, then re-ranks to top-K with a cross-encoder.
+
 ## 📖 What You'll Learn
 
 1. Why vector search alone isn't enough for top-quality retrieval
